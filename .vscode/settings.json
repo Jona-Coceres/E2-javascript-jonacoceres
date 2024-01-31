@@ -1,0 +1,7 @@
+{
+  "editor.cursorBlinking": "smooth",
+  "window.autoDetectColorScheme": false,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "liveServer.settings.port": 5501
+}

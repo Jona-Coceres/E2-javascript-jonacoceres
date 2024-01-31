@@ -1,0 +1,60 @@
+:root {
+  --background: #000000;
+  --orange: #ef8354;
+  --btn-active: #ef5e54;
+  --grey: #bfc0c0;
+  --azul1: #2d3142;
+  --azul2: #475d75;
+  --texto_1: #f4f4f4;
+  --texto_2: #2d2d2d;
+  --texto_3: #5a5a5a;
+  --prodbackground: #ffffff;
+  --linea: #cccccc;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px 90px;
+  }
+
+  .navbar {
+    gap: 20px;
+  }
+
+  .list-nav {
+    display: flex;
+    position: fixed;
+    top: 64px;
+    left: 2%;
+    right: 2%;
+    width: 90%;
+    height: 50vh;
+    flex-direction: column;
+    background: var(--azul1);
+    border: 2px solid var(--azul2);
+    border-top: 0px;
+    align-items: center;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+  }
+  .list-nav a {
+    font-size: 18px;
+  }
+  .menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    cursor: pointer;
+  }
+  .menu-button i {
+    color: var(--prodbackground);
+    height: 15px;
+    width: 30px;
+  }
+  .open-menu {
+    display: flex;
+  }
+}
